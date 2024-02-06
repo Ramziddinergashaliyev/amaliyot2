@@ -1,0 +1,36 @@
+footer {
+  background-color: #FCFCFC;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.link {
+  font-family: Sharp Sans No1;
+  font-size: 18px;
+  font-weight: 760;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.link:hover {
+  color: aqua;
+}
+
+.footer__bottom {
+  font-family: Sharp Sans No1;
+  padding: 10px 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 760;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: linear-gradient(180deg, var(--primary-color) 0%, #2C9553 100%);
+}

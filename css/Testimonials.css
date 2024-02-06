@@ -1,0 +1,99 @@
+#testimonials {
+  background-color: #FCFCFC;
+}
+
+.testimonials__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.heppy__text {
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 40px 0px 70px;
+}
+.testimonials__card {
+  width: 514px;
+  height: 347px;
+  top: 4997px;
+  left: 193px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  transition: 1s;
+}
+
+.testimonials__card:hover {
+  box-shadow:inset 10px 700px aqua, 3px 3px 20px gray;
+  color: #FCFCFC;
+
+}
+
+.testimonials__text {
+  font-family: Sharp Sans No1;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 32px 0px 30px;
+}
+
+.subscribe__card {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.subscribe__card__title {
+  font-family: Sharp Sans No1;
+  font-size: 36px;
+  font-weight: 770;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.subscribe__card__text {
+  font-family: Sharp Sans No1;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 15px 0px 25px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+input {
+  height: 50px;
+  width: 300px;
+  border-radius: 50px;
+  outline: none;
+  padding: 20px;
+}
+
+.started__btn {
+  color: white;
+  padding: 7px 32px;
+  border-radius: 40px;
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center; 
+  border: none;
+  background: linear-gradient(180deg, var(--primary-color) 0%, #2C9553 100%);
+}

@@ -1,0 +1,63 @@
+.cooking {
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
+  gap: 80px;
+}
+
+.cooking__left {
+  width: 50%;
+}
+.cook__title {
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cook__text {
+  font-family: Sharp Sans No1;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 30px 0px;
+}
+
+.cook__right {
+  position: relative;
+  width: 50%;
+  bottom: 210px;
+}
+
+.cook__position__img {
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+.cookin__position {
+  position: absolute;
+  top: -70px;
+  right: 80px;
+  z-index: 99;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cook__position__barg {
+  position: absolute;
+  right: -60px;
+  top: 300px;
+  z-index: 991;
+}
+
+.cook__position__left {
+  position: absolute;
+  left: -100px;
+  top: 120px;
+}

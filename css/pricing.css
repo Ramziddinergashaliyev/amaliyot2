@@ -1,0 +1,95 @@
+.order__cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.choose__text {
+  text-align: center;
+  padding: 90px 0px;
+}
+
+.choose__title {
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.food__text {
+  font-family: Sharp Sans No1;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.order__card {
+  width: 260px;
+  padding: 20px;
+  text-align: center;
+}
+
+.order__card:hover {
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 5px;
+}
+
+.order__title {
+  font-family: Sharp Sans No1;
+  font-size: 28px;
+  font-weight: 770;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 26px 0px;
+}
+
+.order__text {
+  font-family: Sharp Sans No1;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.statistic {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.statistic__card {
+  padding: 20px;
+  text-align: center;
+}
+
+.statistic__card:hover {
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 5px;
+}
+
+.number {
+  font-family: Sharp Sans No1;
+  font-size: 44px;
+  font-weight: 780;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.statistic__text {
+  font-family: Sharp Sans No1;
+  font-size: 20px;
+  font-weight: 760;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}

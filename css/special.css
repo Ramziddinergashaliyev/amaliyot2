@@ -1,0 +1,69 @@
+.special__cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.special__top {
+  text-align: center;
+  margin: 70px 0px;
+}
+
+.special__top__title {
+  font-family: Sharp Sans No1;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.special__top__text {
+  font-family: Sharp Sans No1;
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.special__card {
+  width: 316px;
+  height: 490px;
+  left: 135px;
+  border-radius: 20px;
+  border: 1px solid rgb(202, 193, 193);
+  text-align: center;
+  padding: 20px;
+}
+
+.special__card:hover {
+  border: none;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.special__card__title {
+  font-family: Sharp Sans No1;
+  font-size: 30px;
+  font-weight: 770;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.special__card__text {
+  font-family: Sharp Sans No1;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.view__btn {
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+}

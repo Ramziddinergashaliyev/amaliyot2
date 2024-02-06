@@ -1,0 +1,34 @@
+.vegetable__left {
+  width: 50%;
+}
+.vegetable__right {
+  width: 50%;
+}
+.vegetable__img {
+  width: 100%;
+}
+.vegetable {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+  padding-top: 120px;
+}
+
+.vegetable__title {
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: 770;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.vegetable__text {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 30px 0px;
+}
